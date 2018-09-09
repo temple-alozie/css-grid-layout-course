@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Css gride layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+        }
+
+        .wrapper>div {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure distinctio atque a, sit labore tempora dolor,
+            qui quibusdam laboriosam similique, aut quis. Molestiae provident tenetur voluptas, inventore asperiores distinctio
+            consectetur ipsam fugiat hic beatae quidem, et saepe nemo amet praesentium sequi? Provident ratione, aliquam
+            inventore dolorem cumque odio quidem facilis quas, exercitationem molestias dolores laboriosam fugiat tempora,
+            necessitatibus debitis vitae. Doloribus temporibus alias, deleniti eveniet quis ipsum dolore fuga numquam reprehenderit,
+            error perspiciatis voluptas rem dignissimos autem recusandae, doloremque quas fugiat quidem facere molestiae
+            cupiditate non voluptates tenetur. Consequatur ipsa dolor veritatis quisquam sunt culpa nemo voluptates obcaecati.
+            Nobis animi harum, aspernatur voluptatum iusto laboriosam expedita excepturi vitae aliquid eveniet, ab facere
+            at voluptate, tempora praesentium. Sit et quibusdam nulla quidem. </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, saepe hic, iusto provident minima tempore eum
+            quaerat, vero reprehenderit iure culpa quo earum! Tempora fugiat temporibus vero molestias voluptates tenetur.
+        </div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure distinctio atque a, sit labore tempora dolor,
+            qui quibusdam laboriosam similique, aut quis. Molestiae provident tenetur voluptas, inventore asperiores distinctio
+            consectetur ipsam fugiat hic beatae quidem, et saepe nemo amet praesentium sequi? Provident ratione, aliquam
+            inventore dolorem cumque odio quidem facilis quas, exercitationem molestias dolores laboriosam fugiat tempora,
+            necessitatibus debitis vitae. Doloribus temporibus alias, deleniti eveniet quis ipsum dolore fuga numquam reprehenderit,
+            error perspiciatis voluptas rem dignissimos autem recusandae, doloremque quas fugiat quidem facere molestiae
+            cupiditate non voluptates tenetur. Consequatur ipsa dolor veritatis quisquam sunt culpa nemo voluptates obcaecati.
+            Nobis animi harum, aspernatur voluptatum iusto laboriosam expedita excepturi vitae aliquid eveniet, ab facere
+            at voluptate, tempora praesentium. Sit et quibusdam nulla quidem. </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, saepe hic, iusto provident minima tempore eum
+            quaerat, vero reprehenderit iure culpa quo earum! Tempora fugiat temporibus vero molestias voluptates tenetur.
+        </div>
+    </div>
+</body>
+
+</html>
